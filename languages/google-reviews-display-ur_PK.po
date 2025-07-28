@@ -1,0 +1,40 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: google-reviews-display\n"
+"Language: ur_PK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Google Reviews Settings"
+msgstr "گوگل ریویو سیٹنگز"
+
+msgid "Google Reviews"
+msgstr "گوگل ریویوز"
+
+msgid "API Settings"
+msgstr "API سیٹنگز"
+
+msgid "Google Places API Key"
+msgstr "گوگل پلیس API کلید"
+
+msgid "Google Place ID"
+msgstr "گوگل پلیس ID"
+
+msgid "Cache Time (seconds)"
+msgstr "کیش وقت (سیکنڈز)"
+
+msgid "Display Format"
+msgstr "ڈسپلے فارمیٹ"
+
+msgid "Google Image URL"
+msgstr "گوگل امیج یو آر ایل"
+
+msgid "Enter your Google Places API settings below. You can customize the order of elements using the variables: {label}, {stars}, {rating}, {total_reviews}, {google_image}"
+msgstr "نیچے اپنی گوگل پلیس API سیٹنگز درج کریں۔ آپ ان عناصر کو ترتیب دے سکتے ہیں: {label}, {stars}, {rating}, {total_reviews}, {google_image}"
+
+msgid "Default: 86400 (24 hours). Minimum: 300 (5 minutes)"
+msgstr "ڈیفالٹ: 86400 (24 گھنٹے)، کم از کم: 300 (5 منٹ)"
+
+msgid "Use template variables such as:"
+msgstr "ان ٹیمپلیٹ ویریبلز کو استعمال کریں:"

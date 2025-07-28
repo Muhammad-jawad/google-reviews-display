@@ -1,0 +1,227 @@
+# Copyright (C) 2025 Muhammad Jawad Arshad
+# This file is distributed under the same license as the Google Reviews Display plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Google Reviews Display 1.3.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/google-reviews-display 3\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-07-28T19:40:02+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: google-reviews-display\n"
+
+#. Plugin Name of the plugin
+#: google-reviews-display.php
+msgid "Google Reviews Display"
+msgstr ""
+
+#. Description of the plugin
+#: google-reviews-display.php
+msgid "Display Google Reviews in a secure, customizable format with caching and dashboard widgets."
+msgstr ""
+
+#. Author of the plugin
+#: google-reviews-display.php
+msgid "Muhammad Jawad Arshad"
+msgstr ""
+
+#. Author URI of the plugin
+#: google-reviews-display.php
+msgid "https://muhammad-jawad.github.io/"
+msgstr ""
+
+#: includes/class-google-reviews-display.php:58
+msgid "API Settings"
+msgstr ""
+
+#: includes/class-google-reviews-display.php:65
+msgid "Google Places API Key"
+msgstr ""
+
+#: includes/class-google-reviews-display.php:73
+msgid "Google Place ID"
+msgstr ""
+
+#: includes/class-google-reviews-display.php:81
+msgid "Cache Time (seconds)"
+msgstr ""
+
+#: includes/class-google-reviews-display.php:89
+msgid "Display Format"
+msgstr ""
+
+#: includes/class-google-reviews-display.php:97
+msgid "Google Image URL"
+msgstr ""
+
+#: includes/class-google-reviews-display.php:135
+#, php-format
+msgid "Invalid variable: {%s}. Allowed variables: {label}, {stars}, {rating}, {total_reviews}, {google_image}"
+msgstr ""
+
+#: includes/class-google-reviews-display.php:161
+msgid "Enter your Google Places API settings below. You can customize the order of elements using the variables: {label}, {stars}, {rating}, {total_reviews}, {google_image}"
+msgstr ""
+
+#: includes/class-google-reviews-display.php:183
+msgid "Default: 86400 (24 hours). Minimum: 300 (5 minutes)"
+msgstr ""
+
+#: includes/class-google-reviews-display.php:191
+msgid "Arrange variables with any text between them. Available variables: "
+msgstr ""
+
+#: includes/class-google-reviews-display.php:202
+msgid "URL to your Google logo/image"
+msgstr ""
+
+#: includes/class-google-reviews-display.php:217
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: includes/class-google-reviews-display.php:261
+#: includes/class-google-reviews-display.php:364
+#: includes/class-google-reviews-display.php:409
+msgid "Google Reviews plugin is not properly configured."
+msgstr ""
+
+#: includes/class-google-reviews-display.php:283
+msgid "Error fetching reviews:"
+msgstr ""
+
+#: includes/class-google-reviews-display.php:291
+msgid "Google API Error:"
+msgstr ""
+
+#: includes/class-google-reviews-display.php:318
+#: includes/class-google-reviews-display.php:461
+msgid "Excellent"
+msgstr ""
+
+#: includes/class-google-reviews-display.php:320
+#: includes/class-google-reviews-display.php:463
+msgid "Very Good"
+msgstr ""
+
+#: includes/class-google-reviews-display.php:322
+#: includes/class-google-reviews-display.php:465
+msgid "Good"
+msgstr ""
+
+#: includes/class-google-reviews-display.php:324
+#: includes/class-google-reviews-display.php:467
+msgid "Fair"
+msgstr ""
+
+#: includes/class-google-reviews-display.php:326
+#: includes/class-google-reviews-display.php:469
+msgid "Poor"
+msgstr ""
+
+#: includes/class-google-reviews-display.php:355
+msgid "Google Reviews Summary"
+msgstr ""
+
+#: includes/class-google-reviews-display.php:366
+msgid "Configure Now"
+msgstr ""
+
+#: includes/class-google-reviews-display.php:376
+msgid "Check Settings"
+msgstr ""
+
+#: includes/class-google-reviews-display.php:391
+#, php-format
+msgid "%s review"
+msgid_plural "%s reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-google-reviews-display.php:397
+msgid "Settings"
+msgstr ""
+
+#: includes/class-google-reviews-display.php:401
+msgid "Refresh"
+msgstr ""
+
+#: includes/class-google-reviews-display.php:438
+msgid "No reviews data available."
+msgstr ""
+
+#: includes/class-google-reviews-display.php:484
+msgid "Google Reviews Settings"
+msgstr ""
+
+#: includes/class-google-reviews-display.php:488
+msgid "Google Reviews cache has been successfully regenerated!"
+msgstr ""
+
+#: includes/class-google-reviews-display.php:494
+msgid "Error regenerating cache: "
+msgstr ""
+
+#: includes/class-google-reviews-display.php:509
+msgid "Cache Management"
+msgstr ""
+
+#: includes/class-google-reviews-display.php:515
+msgid "Regenerate Reviews Cache Now"
+msgstr ""
+
+#: includes/class-google-reviews-display.php:517
+msgid "Force refresh the reviews data from Google"
+msgstr ""
+
+#: includes/class-google-reviews-display.php:525
+msgid "Shortcode"
+msgstr ""
+
+#: includes/class-google-reviews-display.php:526
+msgid "Use this shortcode to display reviews anywhere:"
+msgstr ""
+
+#: includes/class-google-reviews-display.php:529
+#: includes/class-google-reviews-display.php:561
+msgid "Copy"
+msgstr ""
+
+#: includes/class-google-reviews-display.php:534
+msgid "Available Variables"
+msgstr ""
+
+#: includes/class-google-reviews-display.php:535
+msgid "Use these variables in your display format:"
+msgstr ""
+
+#: includes/class-google-reviews-display.php:537
+msgid "Text rating (Excellent, Very Good, etc.)"
+msgstr ""
+
+#: includes/class-google-reviews-display.php:538
+msgid "Star rating icons"
+msgstr ""
+
+#: includes/class-google-reviews-display.php:539
+msgid "Numeric rating (e.g. 4.5)"
+msgstr ""
+
+#: includes/class-google-reviews-display.php:540
+msgid "Total number of reviews"
+msgstr ""
+
+#: includes/class-google-reviews-display.php:541
+msgid "Google logo/image"
+msgstr ""
+
+#: includes/class-google-reviews-display.php:546
+msgid "Preview"
+msgstr ""
+
+#: includes/class-google-reviews-display.php:559
+msgid "Copied!"
+msgstr ""

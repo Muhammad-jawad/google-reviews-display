@@ -1,0 +1,40 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: google-reviews-display\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Google Reviews Settings"
+msgstr "Paramètres des avis Google"
+
+msgid "Google Reviews"
+msgstr "Avis Google"
+
+msgid "API Settings"
+msgstr "Paramètres de l'API"
+
+msgid "Google Places API Key"
+msgstr "Clé API Google Places"
+
+msgid "Google Place ID"
+msgstr "ID du lieu Google"
+
+msgid "Cache Time (seconds)"
+msgstr "Durée du cache (secondes)"
+
+msgid "Display Format"
+msgstr "Format d'affichage"
+
+msgid "Google Image URL"
+msgstr "URL de l'image Google"
+
+msgid "Enter your Google Places API settings below. You can customize the order of elements using the variables: {label}, {stars}, {rating}, {total_reviews}, {google_image}"
+msgstr "Entrez vos paramètres d'API Google Places ci-dessous. Vous pouvez personnaliser l'ordre des éléments : {label}, {stars}, {rating}, {total_reviews}, {google_image}"
+
+msgid "Default: 86400 (24 hours). Minimum: 300 (5 minutes)"
+msgstr "Par défaut : 86400 (24 heures). Minimum : 300 (5 minutes)"
+
+msgid "Use template variables such as:"
+msgstr "Utilisez les variables de modèle comme :"
