@@ -3,7 +3,7 @@
  * Plugin Name:       Google Reviews Display
  * Plugin URI:        https://muhammad-jawad.github.io/
  * Description:       Display Google Reviews in a secure, customizable format with caching and dashboard widgets.
- * Version:           1.3.0
+ * Version:           1.3.1
  * Author:            Muhammad Jawad Arshad
  * Author URI:        https://muhammad-jawad.github.io/
  * Text Domain:       google-reviews-display
@@ -53,3 +53,12 @@ add_action('plugins_loaded', function () {
         new GoogleReviewsDisplay();
     }
 });
+
+
+require_once GRD_PLUGIN_DIR . 'vendor/plugin-update-checker/plugin-update-checker.php';
+
+$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+    'https://github.com/muhammad-jawad/google-reviews-display/',
+    __FILE__,
+    'google-reviews-display'
+);
