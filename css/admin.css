@@ -1,0 +1,120 @@
+/** Admin Styles **/
+.google-reviews-admin h1 {
+    color: #1a73e8;
+}
+
+.google-reviews-admin-container {
+    display: flex;
+    gap: 20px;
+}
+
+.google-reviews-admin-main {
+    flex: 2;
+}
+
+.google-reviews-admin-sidebar {
+    flex: 1;
+    min-width: 300px;
+}
+
+.google-reviews-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.google-reviews-card h3 {
+    margin-top: 0;
+    color: #1a73e8;
+}
+
+.google-reviews-variables {
+    list-style: none;
+    padding-left: 0;
+}
+
+.google-reviews-variables li {
+    margin-bottom: 8px;
+    padding-left: 1.5em;
+    position: relative;
+}
+
+.google-reviews-variables li:before {
+    content: '•';
+    color: #1a73e8;
+    position: absolute;
+    left: 0;
+}
+
+.google-reviews-shortcode {
+    width: 100%;
+    padding: 5px;
+    background: #f1f3f4;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+}
+
+.google-reviews-copy-shortcode {
+    margin-top: 5px;
+}
+
+.google-reviews-refresh-button i {
+    margin-right: 5px;
+}
+
+/* Dashboard Widget Styles */
+.google-reviews-widget {
+    text-align: center;
+}
+
+.google-reviews-widget-rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.google-reviews-widget-stars {
+    color: #ffb300;
+    font-size: 1.5em;
+}
+
+.google-reviews-widget-number {
+    font-size: 2em;
+    font-weight: bold;
+    color: #1a73e8;
+}
+
+.google-reviews-widget-label {
+    font-weight: bold;
+    margin: 5px 0;
+    color: #1a73e8;
+}
+
+.google-reviews-widget-count {
+    color: #5f6368;
+    margin: 5px 0 15px;
+}
+
+.google-reviews-widget-actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.google-reviews-widget-actions .button i {
+    margin-right: 5px;
+}
+
+.google-reviews-widget-error {
+    padding: 10px;
+    background: #ffebee;
+    border-left: 4px solid #d32f2f;
+}
+
+.google-reviews-widget-error .button {
+    margin-top: 10px;
+}
